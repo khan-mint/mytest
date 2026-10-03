@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmad Ahnaf Gillani - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Ahmad Gillani.</div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger"><i class="fas fa-bars"></i></label>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h3>Hello, I'm</h3>
+    <h1>Ahmad Ahnaf Gillani</h1>
+    <h2>Frontend Developer</h2>
+    <p>AI Developer & Frontend enthusiast building responsive and modern web experiences.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+  <div class="hero-img">
+    <img src="ahmad.jpg" alt="Ahmad Ahnaf Gillani">
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-container">
+    <img src="ahmad.jpg" alt="Ahmad Ahnaf Gillani">
+    <div>
+      <p>I'm <b>Ahmad Ahnaf Gillani</b>, a passionate AI & Web Developer from Peshawar. Creator of <b>Project-Ai-Developer</b>. I love turning ideas into real products.</p>
+      <a href="#contact" class="btn-outline">Hire Me</a>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section dark">
+  <h2 class="section-title">My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill"><i class="fab fa-html5"></i><span>HTML</span><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+    <div class="skill"><i class="fab fa-css3-alt"></i><span>CSS</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+    <div class="skill"><i class="fab fa-js"></i><span>JavaScript</span><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+    <div class="skill"><i class="fas fa-robot"></i><span>AI Development</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+    <div class="skill"><i class="fab fa-git-alt"></i><span>Git & GitHub</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+    <div class="skill"><i class="fas fa-mobile-alt"></i><span>Responsive Design</span><div class="bar"><div class="fill" style="width:88%"></div></div></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600" alt="AI Project">
+      <div class="card-body">
+        <h3>Project Ai Developer</h3>
+        <p>My AI project focused on automating development tasks.</p>
+        <div class="tags"><span>AI</span><span>Python</span><span>GitHub</span></div>
+        <a href="https://github.com/khan-mint/Project-Ai-Developer.git" target="_blank" style="display:inline-block; margin-top:10px; color:#6366f1; font-weight:600;">View on GitHub →</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600" alt="">
+      <div class="card-body">
+        <h3>Portfolio Website</h3>
+        <p>Fully responsive personal portfolio with smooth animations and JS interactions.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section dark">
+  <h2 class="section-title">Contact Me</h2>
+  <div class="contact-container">
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="socials">
+      <h3>Find me on</h3>
+      <div class="icons">
+        <a href="https://github.com/khan-mint" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="http://www.linkedin.com/in/ahmad-ahnaf-08b357432" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Ahmad Ahnaf Gillani. Built with ❤️ in Peshawar</footer>
+<script src="script.js"></script>
+</body>
+</html>
